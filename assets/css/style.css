@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #d8d8a7;
+  background-color: rgba(248, 246, 246, 0.973);
+  z-index: 1000;
 }
 .navbar .navbar-brand {
   color: #137088;
@@ -9,7 +10,7 @@
   color: #a94a50;
 }
 .navbar .navbar-text {
-  color: #137088;
+  color: #c72c6d;
 }
 .navbar .navbar-text a {
   color: #a94a50;
@@ -19,7 +20,7 @@
   color: #a94a50; 
 }
 .navbar .navbar-nav .nav-link {
-  color: #137088;
+  color: #266b7c;
   border-radius: .25rem;
   margin: 0 0.25em;
 }
@@ -28,11 +29,11 @@
   color: #a94a50;
 }
 .navbar .navbar-nav .dropdown-menu {
-  background-color: #d8d8a7;
+  background-color: #cece65;
   border-color: #ed6846;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
-  color: #137088;
+  color: #bee0e9;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
@@ -60,11 +61,11 @@
   background-color: #ed6846;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-  color: #137088;
+  color: #8bee49;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: #137088;
+  border-color: #7bfff4;
 }
 .navbar .navbar-link {
   color: #137088;
@@ -75,7 +76,7 @@
 
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #137088;
+    color: #32c3e7;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -117,7 +118,7 @@
 
 @media (max-width: 1199px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #137088;
+    color: #ffffff;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -140,3 +141,19 @@
   color: #a94a50;
   background-color: #ed6846;
 }
+
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%
+}
+
+.carousel-caption{
+    top:30%;
+    bottom: auto;
+}
+.heading{font-size: 60px; text-shadow: 2px 2px #ff033d;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px #ff033d;}
