@@ -1,5 +1,6 @@
 .navbar {
   background-color: #b3b3a2;
+  padding: 50%
 }
 .navbar .navbar-brand {
   color: #0f100f;
@@ -60,6 +61,9 @@
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #0f100f;
+    -ms-accelerator: true;
+    -webkit-transform-origin-z: true;
+    overflow: hidden;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
