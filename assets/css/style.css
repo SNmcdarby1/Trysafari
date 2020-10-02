@@ -169,6 +169,14 @@ body,
 .sub-heading{font-size: 30px; text-shadow: 2px 2px #ff033d;}
 
 /*-------------------------------------------------------------Footer*/
+/*-------------------------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgb(114, 8, 8)
+    height: 120px;
+}
+
+/*-------------------------------------------------------------Footer*/
 footer {
     background-color: #c6caca;
     color: #0c0c0c;
@@ -214,4 +222,7 @@ footer {
 }
 .footer-details{
     padding: 20px;
+}
+.bg{
+    background-color: #14koh #b3b3a2
 }
