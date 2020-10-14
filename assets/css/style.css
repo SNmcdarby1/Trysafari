@@ -15,7 +15,7 @@ header{
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
     -o-transition: all 0.35s ease-in-out; 
-
+}
 ul{
     float:right;
     list-style-type:none;
@@ -33,8 +33,8 @@ ul li a {
     color:#fff;
     padding: 5px 20px;
     border: 1px solid transparent;
-    columns: #000;;
-    font weight:400;
+    columns: rgb(219, 171, 171);
+    font weight:25%;
     transition: 0.6 ease;
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
@@ -43,11 +43,11 @@ ul li a {
 }
 ul li a:hover{
     background-color: #fff;
-    columns: #000;
+    columns: rgb(252, 244, 244);
 }
  ul li .active a {
       background-color: #fff;
-      color: #000;
+      color: rgb(243, 230, 230);
 
  }
 
@@ -73,7 +73,7 @@ ul li a:hover{
 }
 
 .title h1 {
-    color: £fff;
+    color: #fff;
     font-size: 70px;
 
 }
@@ -97,16 +97,17 @@ ul li a:hover{
  #logo{
      width: 200px;
      height: 200px;
-     float:right fixed;
-     margin-top: 5px;
-     margin-left: 5px;
+     float:right;
+     position: fixed;
+     margin-top: 15px;
+     margin-left: 15px;
      transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
     -o-transition: all 0.35s ease-in-out; 
  }
 .hvr-sweep-to-bottom:before {
-    background: rgb(160, 157, 157);
+    background: rgb(12, 10, 10);
     height: 120px;
 }
 @media(min-width: 992px) {
@@ -325,11 +326,11 @@ body,
 }
 
 .carousel-caption{
-    top:30%;
+    top:200px;
     bottom: auto;
 }
-.heading{font-size: 60px; text-shadow: 2px 2px #ff033d;}
-.sub-heading{font-size: 30px; text-shadow: 2px 2px #ff033d;}
+.heading{font-size: 60px; text-shadow: 2px 2px #aaa1a3;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px #797777;}
 
 /*-------------------------------------------------------------Footer*/
 /*-------------------------------------------------------------Hover.css*/
@@ -445,43 +446,13 @@ header {
     margin: 50px;
 }
 
-.logo {
-    background: url("../images/mamaafrika.jpg");
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} 
-.logo-1 {
-    background: url("../images/picha2.jpg");
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} 
-.logo-2 {
-    background: url("../images/picha6.jpg");
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} 
 
 .name{
     font-family: "Exo",sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
-    color: rgb(114, 8, 8);
+    color: rgb(206, 93, 41);
 }
 
 .title{
@@ -493,19 +464,20 @@ header {
     color: rgb(15, 15, 15);
 }
 h1:hover{
-     background-color: #eaf0ea;
-     display: block;
-     display: block;
+     background-color: #4c504c;
+     display: inline-block;
+    
 }
 h2:hover{
-     background-color: #eaf0ea;
-     display:block;
+     background-color: #4d534d;
+     display:inline-block;
      scroll-padding-block: 50px;
 }
 h3:hover{
-    background-color: #eaf0ea;
-    position: right;
-    display: block;
+    background-color: #555855;
+    float: right;
+    display: inline-block;
+
 }
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -521,6 +493,8 @@ h3:hover{
 #nav lI{
     font-size: 14px;
     padding: 0;
+    position: fixed;
+    float: right;
 }
 .menuitem {
     height: 120px;
@@ -735,6 +709,7 @@ w-100{
 li {
     display: list-item;
     text-align:-webkit-match-parent;
+
 }
 ol{
     display: block;
