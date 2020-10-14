@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap|100,200,300,400,500,600,700'); 
 /*-----------------------------------------------------------------------------------------------color*/
 
+
+
+
+
+
+
+
+
+/*------------------------------------------------------color*/
 *{
     margin:0;
     padding: 0;
@@ -12,9 +21,16 @@ header{
     background-size: cover;
     background-position: center;
     transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+   
+    
+.button {
+    position:center;
+    float: inline-end;
+    padding: 10px;
+    box:2rem;
 }
 ul{
     float:right;
@@ -36,7 +52,7 @@ ul li a {
     columns: rgb(219, 171, 171);
     font weight:25%;
     transition: 0.6 ease;
-    transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
     -o-transition: all 0.35s ease-in-out; 
@@ -48,8 +64,11 @@ ul li a:hover{
  ul li .active a {
       background-color: #fff;
       color: rgb(243, 230, 230);
-
  }
+h1{
+    position: flex;
+    max-width: 760px;
+}
 
 .logo{
     float: left;
@@ -91,7 +110,7 @@ ul li a:hover{
     transition: 0.6 ease;
 }
 .btn:hover{
-      background-color: #fff;
+      background-color: rgb(53, 31, 31);
      color: #000;
 }
  #logo{
@@ -118,7 +137,9 @@ ul li a:hover{
     max-width: 50;
 }
 
-
+footer{
+    background-color: grey;
+}
 
 
 
@@ -237,7 +258,6 @@ ul li a:hover{
     color: #1a1a21;
     background-color: #c9ed46;
   }
-}
 
 @media (max-width: 767px) {
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -408,6 +428,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+     text:flex;
 }
 .uppercase {
     text-transform: uppercase;
