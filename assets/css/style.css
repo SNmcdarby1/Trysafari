@@ -19,26 +19,22 @@ header{
     background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("../images/ele.jpg");
     height: 100vh;
     background-size: cover;
+    opacity:1;
     background-position: center;
     transition: all 0.35s ease-in-out; 
     -o-transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
-   
-    
-.button {
-    position:center;
-    float: inline-end;
-    padding: 10px;
-    box:2rem;
-}
+} 
 ul{
-    float:right;
+    float: right;
     list-style-type:none;
     margin-top: 25px;
+    .list-inline-sytle:none;
 }
 ul li {
     display: inline-block;
+    inline-style:none;
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
@@ -47,15 +43,11 @@ ul li {
 ul li a {
     text-decoration: none;
     color:#fff;
-    padding: 5px 20px;
+    padding: 5px 20px 10px;
+    float: right;
     border: 1px solid transparent;
     columns: rgb(219, 171, 171);
-    font weight:25%;
-    transition: 0.6 ease;
-    -o-transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+    font-weight:5%;
 }
 ul li a:hover{
     background-color: #fff;
@@ -65,10 +57,6 @@ ul li a:hover{
       background-color: #fff;
       color: rgb(243, 230, 230);
  }
-h1{
-    position: flex;
-    max-width: 760px;
-}
 
 .logo{
     float: left;
@@ -110,8 +98,8 @@ h1{
     transition: 0.6 ease;
 }
 .btn:hover{
-      background-color: rgb(53, 31, 31);
-     color: #000;
+      background-color: rgb(240, 229, 229);
+     color: rgb(247, 240, 240);
 }
  #logo{
      width: 200px;
