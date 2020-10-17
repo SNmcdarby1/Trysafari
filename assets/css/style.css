@@ -11,88 +11,86 @@
 
 /*------------------------------------------------------custom*/
 *{
-    margin:0;
     padding: 0;
+    margin: 0;
     font-family: 'mandali' sans-serif
 }
 header{
     background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("../images/ele.jpg");
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     opacity:1;
-    min-height: 100%
-    background-position: center;
+    min-height: 0%
+    background-position:relative;
     background-size:cover;
-    transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
+    transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out; 
 } 
 ul{
-    float: right;
+    float: left;
     position: fixed;
-    list-style-type:none;
-    margin-top: 25px;
+    list-style-type: 1rem;
+    margin-top: 5px;
 }
 ul li {
     position: relative;
     display: inline-block;
-    transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+    transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
 } 
 ul li a {
     text-decoration: none , coral;
     color:#fff;
-    padding: 5px 20px 10px;
+    padding: 10px 15px 25px;
     float: right;
     border: 1px solid transparent;
     columns: rgb(219, 171, 171);
-    font-weight:5%;
+    font-variant-east-asian: weight 15px;
 }
 ul li a:hover{
     background-color: #fff;
-    columns: rgb(219, 122, 122);
+    color: rgb(219, 122, 122);
 }
  ul li .active a {
       background-color: #fff;
       color: rgb(243, 230, 230);
  }
 
-.logo sm,md,max{
-    float: left ;
-    width: 50px;
-    height: 20%;   
-    margin-top:50px;
+.logo{
+    float: center ;
+    width: 3px;
+    height: 5%;   
+    margin-top:2px;
 }
 
 
 }
 .main{
-    max-width: 100px;
+    max-width: 100%;
     margin: auto;
 }
 .title{
-    position: absolute;
-    top: 30%;
-    left:50%;
-    transform: translate(-50% ,-50%);
-    color: #fff;
+    position: relative;
+    transform: translate(-40% ,-10%);
+    color: #ffffff;
+    display: inline-block;
 
 }
 
 .title h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height:90px;
 
 }
 .button{
-    position: absolute;
-    top: 50%;
-    left:35%;
-    transform: translate(-50% -50%);
-}
+    position: relative;}
 .btn {
     border: 1px, solid #fff;
     padding: 20px 40px;
@@ -384,13 +382,13 @@ h2,
 h3,
 h4 {
     margin: 0;
-     text:flex;
+     text:wrap;
 }
 .uppercase {
     text-transform: uppercase;
 }
 .general-sub {
-    font-family: "Exo",sans-serif;
+    font-family:'Mandali',sans-serif;
     font-weight: 300;
     color: #fafafa
 }
@@ -416,17 +414,17 @@ h4 {
 
 /*-------------------------------------------------------------Headings*/
 header {
-    margin: 0;
+    margin: 10;
 }
 
 .heading{
     margin: 50px;
-    text:flex;
+      align-content:flex;
 }
 
 
 .name{
-    font-family: "Exo",sans-serif;
+    font-family: 'Mandali',sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
@@ -434,10 +432,10 @@ header {
 }
 
 .title{
-    font-family: "Roboto",sans-serif;
+    font-family: 'Mandali',sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 90px;
     color: rgb(15, 15, 15);
 }
@@ -475,7 +473,7 @@ h3:hover{
     float: right;
 }
 .menuitem {
-    height: 120px;
+    height: 10px;
     text-align: center;
     padding: 0;
 }
@@ -488,18 +486,18 @@ h3:hover{
 }
 .menuitem a i {
     padding-top: 22px;
-    display: block;
+    display: inline-block;
     color: #f1f1ef;
-    font-size: 26px;
+    font-size: 6px;
 }
 .menuitem span{
-    display: block;
-    width: 100;
+    display: inline-block;
+    width: 10;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 40;
     letter-spacing: 2px;
 }
 /*-------------------------------------------------------------Hover.css*/
