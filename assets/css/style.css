@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap|100,200,300,400,500,600,700'); 
 /*-----------------------------------------------------------------------------------------------color*/
 
-
+li .menu-item{position: right;
+    padding:1rem;
+    margin:1rem -15px 0;
+    border:#ac639e;
+    border-width: .2rem 0 0;
+}
 
 
 
@@ -17,10 +22,10 @@
 }
 header{
     background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("../images/ele.jpg");
-    height: 50vh;
+    height: 70vh;
     background-size: cover;
     opacity:1;
-    min-height: 0%
+    min-height: 20%
     background-position:relative;
     background-size:cover;
     transition: all 0.5s ease-in-out; 
@@ -28,11 +33,14 @@ header{
     -moz-transition: all 0.5s ease-in-out; 
     -webkit-transition: all 0.5s ease-in-out; 
 } 
+*section{
+    background-image: url("assets/images/masai.jpg");
+    opacity:0.1;
+}
 ul{
-    float:right;
+    float: right !important;
     position: fixed;
-    list-style-type: 1rem;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 ul li {
     position: relative;
@@ -44,19 +52,19 @@ ul li {
 } 
 ul li a {
     text-decoration: none , coral;
-    color:#fff;
-    padding: 10px 15px 25px;
+    color:rgb(12, 12, 12);
+    padding: 1px 5px 5px;
     float: right;
-    border: 1px solid transparent;
+    border: 1px transparent;
     columns: rgb(219, 171, 171);
-    font-variant-east-asian: weight 15px;
+    font-variant-east-asian: weight 50px;
 }
 ul li a:hover{
     background-color: #fff;
     color: rgb(219, 122, 122);
 }
  ul li .active a {
-      background-color: #fff;
+      background-color: rgb(170, 157, 157);
       color: rgb(243, 230, 230);
  }
 
@@ -72,12 +80,18 @@ ul li a:hover{
 .main{
     max-width: 100%;
     margin: auto;
-    -webkit-transform: 60%;
+    -webkit-transform: 100%;
+     display: inline-block;
+    transition: all 0.75s ease-in-out; 
+    -moz-transition: all 0.75s ease-in-out; 
+    -webkit-transition: all 0.75s ease-in-out; 
+    -o-transition: all 0.75s ease-in-out; 
 }
 .title{
     position: absolute;
     color: #ffffff;
-    display: inline-block;
+    display: inline-line-block;
+    padding: 10px 5px 5px;
     top: 50%;
     left: 50%;
     transform: translateX(-50% )  translateY(-50%);
@@ -88,19 +102,26 @@ ul li a:hover{
     color: #fff;
     font-size: 30px;
     text-align: center;
+    padding: 10px 15px 15px;
     vertical-align: middle;
-    line-height:90px;
+    line-height:50px;
      justify-content: center;
 
 }
 .button{
     position: relative;}
 .btn {
-    border: 1px, solid #fff;
-    padding: 20px 40px;
+    border: 10px, rgb(87, 80, 80);
+    padding: 20px 5px 5px;
     color: #fff;
     text-decoration: none;
-    transition: 0.6 ease;
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+
 }
 .btn:hover{
       background-color: rgb(253, 243, 243);
@@ -122,13 +143,7 @@ ul li a:hover{
     background: rgb(12, 10, 10);
     height: 120px;
 }
-@media(min-width: 360px) {
-    .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0px , auto;
-    max-width: 50;
-}
+
 
 footer{
     background-color: rgb(145, 144, 144);
@@ -183,7 +198,13 @@ footer {
     background-color:  #464144
 }
 
-
+@media(min-width: 360px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0px , auto;
+    max-width: 50;
+}
 
 
 
@@ -417,13 +438,15 @@ h4 {
 }
 
 /*-------------------------------------------------------------Headings*/
-header {
+#heading{
     margin: 10;
 }
 
 .heading{
-    margin: 50px;
-      align-content:flex;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+
 }
 
 
@@ -659,33 +682,8 @@ dl ol ul {
 }
 div{
     display: box;
-}
-.d-block{
-    display: block!important;
-}
-img{
-    vertical-align: middle;
-    border-style:none;
-}
-.bd-afrika{
-    position: right;
-    padding:1rem;
-    margin:1rem -15px 0;
-    border:solid #ac639e;
-    border-width: .2rem 0 0;
-}
-.d-block{
-    display: block!important;
-}
-w-100{
-    width:100%!important;
-}
-*,::after, ::before{
-    box-sizing: border-box;
-}
-.d-none{
-    display: none!important;
-}
+    page-break-after: auto;
+    padding: 1px;
 li {
     display: list-item;
     text-align:-webkit-match-parent;
@@ -698,7 +696,7 @@ ol{
     margin-block-end: 1em;
     margin-inline-end: 0px;
     margin-inline-start: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 10px;
 }
 @media  (min-width:576px)
 .bd-afrika{
