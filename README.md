@@ -1,4 +1,4 @@
-# sly
+# TRYSAFARI
 Our goal is to create a user friendly site that is easily accessible at any device.
 
 
@@ -31,7 +31,7 @@ To try and capture the caption of the rich diverse and exortic dream holiday saf
 
 -Description
 --------------------------
-safari has always being one of the major goals in life 
+Safari has always being one of the major goals in life 
 This webpage is created to embody both leisure and corporative travels that one would like to have in Afrika. The safaris are accompanied by an accredeted 
 local tour guide with fully experienced and qualified to showcase the safiri game drives around Africa
 To capture the imagination of the safari
