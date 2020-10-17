@@ -29,7 +29,7 @@ header{
     -webkit-transition: all 0.5s ease-in-out; 
 } 
 ul{
-    float: left;
+    float:right;
     position: fixed;
     list-style-type: 1rem;
     margin-top: 5px;
@@ -64,7 +64,7 @@ ul li a:hover{
     float: center ;
     width: 3px;
     height: 5%;   
-    margin-top:2px;
+    margin-top:10px;
 }
 
 
@@ -72,12 +72,15 @@ ul li a:hover{
 .main{
     max-width: 100%;
     margin: auto;
+    -webkit-transform: 60%;
 }
 .title{
-    position: relative;
-    transform: translate(-40% ,-10%);
+    position: absolute;
     color: #ffffff;
     display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50% )  translateY(-50%);
 
 }
 
@@ -87,6 +90,7 @@ ul li a:hover{
     text-align: center;
     vertical-align: middle;
     line-height:90px;
+     justify-content: center;
 
 }
 .button{
@@ -146,7 +150,7 @@ footer {
     -o-transition: all 0.35s ease-in-out; 
 }
 .cv-pdf i:hover{
-    color: #a09f9f
+    color: #a09f9f;
 }
 .social-links {
     padding-bottom: 15px;
