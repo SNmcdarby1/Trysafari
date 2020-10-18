@@ -39,6 +39,13 @@ local tour guide with fully experienced and qualified to showcase the safiri gam
 To capture the imagination of the safari.
 
 
+------------------------------------------------------
+Landing page 
+-------------------------------------
+![trysafari-landing-page](https://user-images.githubusercontent.com/69846208/96374966-ea99fd80-116d-11eb-9224-3aae158572c7.PNG)
+
+
+
  Coding platform
 --------------------
 
