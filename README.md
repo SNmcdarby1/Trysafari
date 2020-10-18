@@ -39,6 +39,15 @@ local tour guide with fully experienced and qualified to showcase the safiri gam
 To capture the imagination of the safari.
 
 
+--------------------
+
+Landing page image
+--------------
+ - created a mockup page using the [Techsini multi-device mockup software](https://techsini.com/multi-mockup/index.php)
+
+
+
+
  Coding platform
 --------------------
 
@@ -66,7 +75,7 @@ The purpose of this site is to offer a user an appealing and user friendly platf
 This platfoam is to aanble the customer.
  - as a user they would like to navigate through the pages without heading back tothe home page at all times discover new and interesting destinations. I created a navbar inecah page tomake it easier for the user to navigate through all all pages 	
  - The user wanted to book and make make inquiries about the intangible products within the bookings. We created a contact page to send inquiries via email.
- - The youtube video was created using the adobe sp software editing platform to create a vision that will enable the user to connect with the product visiualisation.
+ - The youtube video [Trysafari](https://www.youtube.com/watch?v=wSCGJD_H-n8). Created using the adobe sp software editing platform to create a vision that will enable the user to connect with the product visiualisation.
  - To be recommended destinations.
  - To be able to new bigger picture that will embody our vision and the desire of the user by creating a new experience.  
 	
@@ -154,7 +163,7 @@ Learning references
 - [MR_Bim]() - Thank you for reaching out to me in slack whenever i needed helping.
 
 - [Jim]() - Thank you for the extra work you put up during the presentation it was an eye opener too me on what its needed to be done.
-- last but not least to [mattrudge]() and [BrianOgrady]() for the effortand lectures the have put in the videos to get this far.
+- [mattrudge]() and [BrianOgrady]() for the effortand lectures the have put in the videos to get this far.
 -------------------
  Key support
 ------------------------
