@@ -39,12 +39,19 @@ local tour guide with fully experienced and qualified to showcase the safiri gam
 To capture the imagination of the safari.
 
 
+<<<<<<< HEAD
 --------------------
 
 Landing page image
 --------------
  - created a mockup page using the [Techsini multi-device mockup software](https://techsini.com/multi-mockup/index.php)
 
+=======
+------------------------------------------------------
+Landing page 
+-------------------------------------
+![trysafari-capture](https://user-images.githubusercontent.com/69846208/96375318-41a0d200-1170-11eb-9a7f-ba446a5393ed.PNG)
+>>>>>>> b6f628fe4f7aca3c2a8e80f068e3723dcf16befd
 
 
 
@@ -60,6 +67,11 @@ Landing page image
 - mainly CSS anf HTML with a little snippets of Javascript
 
 
+----------------------------------------------------------
+
+- workflow 
+-------------------------------------
+![workflow](https://user-images.githubusercontent.com/69846208/96374865-5cbe1280-116d-11eb-8708-89f817b78ba9.png)
 --------------------------------------------
  UX
 ----------------
