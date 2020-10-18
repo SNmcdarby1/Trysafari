@@ -58,13 +58,10 @@ To capture the imagination of the safari.
  - This gives the user access to the site at all times. making it practicle and valuable to human-technology interaction in all softwares. Making it very efficient to all demographics.
  
 
-
+---------------------------
  User story
- ----------- 
- -Three parts 
-----------------
- - User persona
- --------------
+ -------------------------
+
 The purpose of this site is to offer a user an appealing and user friendly platform to navigate around and sell the product to the customer
 This platfoam is to aanble the customer.
  - as a user they would like to navigate through the pages without heading back tothe home page at all times discover new and interesting destinations. I created a navbar inecah page tomake it easier for the user to navigate through all all pages 	
@@ -148,7 +145,7 @@ Learning references
 
 
 
-- Acknowledgements 
+ Acknowledgements 
 ---------------------
 - [Tim](https://github.com/TravelTimN) - thank you for going out of you way to assist me in my project even when i almost gave up you held my hand and believe in me.
 - 
@@ -159,12 +156,12 @@ Learning references
 - [Jim]() - Thank you for the extra work you put up during the presentation it was an eye opener too me on what its needed to be done.
 - last but not least to [mattrudge]() and [BrianOgrady]() for the effortand lectures the have put in the videos to get this far.
 -------------------
-- Key support
+ Key support
 ------------------------
 
 - >[CanSucullu](cans_mentor) - Thankyou.
 
-- JIM
+
 
 ## References 
 ----------------------
@@ -174,9 +171,4 @@ Learning references
 
 >[link](https://docs.emmet.io/cheat-sheet/) - Emmet cheatsheet
 
->
-
 ************
-
-
-~~~
