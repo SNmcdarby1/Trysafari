@@ -42,7 +42,7 @@ To capture the imagination of the safari.
 ------------------------------------------------------
 Landing page 
 -------------------------------------
-![trysafari-landing-page](https://user-images.githubusercontent.com/69846208/96374966-ea99fd80-116d-11eb-9224-3aae158572c7.PNG)
+![trysafari-capture](https://user-images.githubusercontent.com/69846208/96375318-41a0d200-1170-11eb-9a7f-ba446a5393ed.PNG)
 
 
 
