@@ -25,23 +25,29 @@ header{
 }
 ul{
     float: right !important;
-    margin-top: 15px;
+    position: fixed;
+    margin-top: 50px;
+    list-style-type: none;
+    overflow: hidden;
     transition: all 0.35s ease-in-out;
 }
 ul li {
     position: relative;
-    display: inline;
+    display: inline-block;
+    border-right: 1px solid #000;
+    flex-direction:row;
+    justify-content:flex-end;
     transition: all 0.5s ease-in-out; 
     -moz-transition: all 0.5s ease-in-out; 
     -webkit-transition: all 0.5s ease-in-out; 
     -o-transition: all 0.5s ease-in-out; 
 } 
 ul li a {
-    text-decoration: none , rgb(204, 202, 201);
+    text-decoration: none , rgb(245, 108, 39);
     color:rgb(4, 53, 54);
     padding: 10px 15px 15px;
     float: right;
-    font-size: 15px;
+    font-size: 12px;
     border: 25px transparent;
     color: rgb(174, 230, 216);
     font-size: weight 50px;
@@ -52,7 +58,7 @@ ul li a:hover{
 }
  ul li .active a {
       background-color: rgb(170, 157, 157);
-      color: rgb(243, 230, 230);
+      color: rgb(87, 95, 41);
  }
 
 .logo{
@@ -71,6 +77,7 @@ ul li a:hover{
 .main{
     max-width: 100%;
     margin: auto;
+    margin-top: 40px;
     -webkit-transform: 100%;
      display: inline-block;
     transition: all 0.5s ease-in-out; 
@@ -79,13 +86,13 @@ ul li a:hover{
     -o-transition: all 0.5s ease-in-out; 
 }
 .title{
-    position: absolute;
+    position: static;
     color: #ffffff;
-    display: inline-block;
-    padding: 10px 25px 25px;
+    display: block;
     top: 50%;
-    left: 50%;
-    transform: translateX(-50% )  translateY(-50%);
+    bottom: 50%
+    padding: 10px 15px 15px;
+    transfoam: translate(50px,100px);
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
@@ -110,14 +117,15 @@ ul li a:hover{
 .button{
     position: relative;}
 .btn {
-    border: 10px, rgb(196, 193, 193);
-    padding: 30px 35px 35px;
-    color: rgb(157, 209, 211);
+    border: 25px, rgb(196, 193, 193);
+    padding: 10px 15px 15px;
+    color: rgb(214, 169, 18);
     font-size: 15px;
     text-decoration: none;
-    position: relative;
+    position: center;
+    float: left;
     display: inline-block;
-    transition: all 0.5s ease-in-out; 
+    transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.5s ease-in-out; 
     -webkit-transition: all 0.5s ease-in-out; 
     -o-transition: all 0.5s ease-in-out; 
@@ -316,15 +324,6 @@ h4 {
     color: rgb(245, 233, 228);
 }
 
-.title{
-    font-family: 'Mandali',sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    color: rgb(15, 15, 15);
-
-}
 .list-inline-item:not(:last-child){
     margin: 0;
 }
@@ -343,9 +342,11 @@ h4 {
     float: right;
 }
 .menuitem {
-    height: 10px;
+    height: 50px;
     text-align: center;
     padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .menuitem a {
@@ -571,7 +572,7 @@ footer {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: rgb(190, 119, 11);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
