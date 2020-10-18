@@ -51,6 +51,11 @@ To capture the imagination of the safari.
 - mainly CSS anf HTML with a little snippets of Javascript
 
 
+----------------------------------------------------------
+
+- workflow 
+-------------------------------------
+![workflow](https://user-images.githubusercontent.com/69846208/96374865-5cbe1280-116d-11eb-8708-89f817b78ba9.png)
 --------------------------------------------
  UX
 ----------------
