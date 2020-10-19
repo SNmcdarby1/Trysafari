@@ -43,50 +43,54 @@ To capture the imagination of the safari.
 --------------------
 
 Landing page image
---------------
+
  - created a mockup page using the [Techsini multi-device mockup software](https://techsini.com/multi-mockup/index.php)
 
 - Wireframe
----------------------
+
 [MS1 Project 1 wireframe.pdf](https://github.com/SNmcdarby1/Trysafari/files/5400638/MS1.Project.1.wireframe.pdf)
 
 
-
-------------------------------------------------------
 Landing page 
--------------------------------------
+
+
 ![trysafari-capture](https://user-images.githubusercontent.com/69846208/96375318-41a0d200-1170-11eb-9a7f-ba446a5393ed.PNG)
->>>>>>> b6f628fe4f7aca3c2a8e80f068e3723dcf16befd
+
 
 
 
  Coding platform
---------------------
+
 
 - The repositories are created in github that stores all the information via in the [Gitpod](https://www.gitpod.io/) Development platform.
 
------------------------------
  - Languages used are 
--------------------
-
-- mainly CSS anf HTML with a little snippets of Javascript
 
 
-----------------------------------------------------------
+- CSS
+- HTML 
+- little snippets of Javascript
+
+
 
 - workflow 
--------------------------------------
+
 ![workflow](https://user-images.githubusercontent.com/69846208/96374865-5cbe1280-116d-11eb-8708-89f817b78ba9.png)
---------------------------------------------
+
+
  UX
-----------------
+
  - The site is responsive that makes it easy accessible in all platforms.
  - This gives the user access to the site at all times. making it practicle and valuable to human-technology interaction in all softwares. Making it very efficient to all demographics.
  
+Testing
+- 
+- Testing was done on google chrome and sent the links to the users through whatsapp.the links worked.
+- I also used the W£validator site to test the CSS and hTML code. receiced an 
+          
 
----------------------------
  User story
- -------------------------
+
 
 The purpose of this site is to offer a user an appealing and user friendly platform to navigate around and sell the product to the customer
 This platfoam is to aanble the customer.
@@ -98,7 +102,7 @@ This platfoam is to aanble the customer.
 	
 
  Ordered steps
- -------------------
+ 
  
 - To discover new and interesting destinations	
 
@@ -106,13 +110,14 @@ This platfoam is to aanble the customer.
 
  - To create an experience in the recommended sites
 
- - To be recommended destinations on interest
+ - To be recommended destinations on interest errors of unclosed abd open tags in the index page and corrected all of them.
+ - receiver errors in the about me bage  
 
  - To be able to browse activities to create a new experience  
 
--------------------------
+
  Troubleshootings 
--------------------
+
 - we discovered that the navigation bar tool was not working so i had to use a navbar instead of the menubar buttons. Used theBootstarp dropdown bars and researched how to create navbars in youtube
 - All users should be able to access easily through the pages with no delays , as defined on the site.
 - After creating the pages should be accessible and be displayed in both the desktop and by phone. should checking that all the pages are responsively active
@@ -120,9 +125,9 @@ This platfoam is to aanble the customer.
 - Some of the images sizes were too big so i used picresize webpage https://picresize.com/# to resize the images that would suite the site according to the users preference
  
 
--------------------------------
+
   Features
----------------------------
+
  *  Easy user friendly navigation system using the navbar. 
  * A trendy useer experienced design that features most of the travel features and information.
  * Most of the content used using google and my content that i collected in the last years during my travel career background.
@@ -130,9 +135,9 @@ This platfoam is to aanble the customer.
  * A Pdf Download link
  
  
---------------------------
+
 Learning references
------------------------------
+
 
  - Code intitute webpage and videoclips
  - Youtube videoclips
@@ -146,22 +151,20 @@ Learning references
 
 
  Code validity
------------------
+
   - - W3validator 
 
 
  Deployment
---------------------
+
 
 - Deployed in gitpod uder the settings page. 
 
-- shared the link via the emails and whatsapp to the users.
 
 
--------------------------------- 
+
  Creditors
-------------------------------
-------------------------------
+
 - [codeinstitute](https://courses.codeinstitute.net/) - I would like to thank the team for the efforts and amazing work for helping us students to uderstand and put our learning into practice.
 - [bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Thankyou for its creator ,contributors and maintainers team.
 - [gitpod](https://www.gitpod.io/) - Thank gitpod team for developing the dev platform.
@@ -172,7 +175,6 @@ Learning references
 
 
  Acknowledgements 
----------------------
 - [Tim](https://github.com/TravelTimN) - thank you for going out of you way to assist me in my project even when i almost gave up you held my hand and believe in me.
 - 
 - [CanSucullu]() - Thankyou for all the extra time you took  to assist and mentor and made me focus on the goals that was needed during this project.
@@ -180,21 +182,20 @@ Learning references
 - [MR_Bim]() - Thank you for reaching out to me in slack whenever i needed helping.
 
 - [Jim]() - Thank you for the extra work you put up during the presentation it was an eye opener too me on what its needed to be done.
-- [mattrudge]() and [BrianOgrady]() for the effortand lectures the have put in the videos to get this far.
--------------------
- Key support
-------------------------
+- [mattrudge]() and [BrianOgrady]() for the effort and lectures the have put in the videos to get this far.
 
-- >[CanSucullu](cans_mentor) - Thankyou.
+
+ Key support
+
+
+[CanSucullu](cans_mentor) - Thankyou.
 
 
 
 ## References 
-----------------------
 
-******
->[link](https://github.com/Code-Institute-Solutions/readme-template.git) - Github Readme cheetsheet template
+[link](https://github.com/Code-Institute-Solutions/readme-template.git) - Github Readme cheetsheet template
 
->[link](https://docs.emmet.io/cheat-sheet/) - Emmet cheatsheet
+[link](https://docs.emmet.io/cheat-sheet/) - Emmet cheatsheet
 
-************
+
