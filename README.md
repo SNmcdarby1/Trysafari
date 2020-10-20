@@ -91,9 +91,13 @@ changed the backround by removing the background image. This is the new look on 
 Testing
 - 
 - Testing was done on google chrome and sent the links to the users through whatsapp.the links worked.
-- I also used the W£validator site to test the CSS and hTML code. receiced an 
-          
+- I also used the W£validator site to test the CSS and hTML code.
+- discovered that the social like were not visible. I found the problem was with the css styling.And it is now fixed and they are  visible for the user
+- The image carousel had a problem as well. The indicators were not visible to the user. I decided to  use inline block display at the gallery page .
+- During validation i found more that 40 errors. I tried to fix the errors but not all of them . I will revisit the site againto try and fix them.
+- Most of the testing was done with friends and workmates, i uploaded gitpod app on my phone, this made it easy to access and sent the link via whats app to the user.
 
+ 
  User story
 
 
