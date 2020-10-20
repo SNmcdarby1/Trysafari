@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap|100,200,300,400,500,600,700'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato|100,200,300,400,500,600,700'); 
 
 /*------------------------------------------------------body*/
    body{ font-family: 'lato' sans-serif.
@@ -6,20 +6,6 @@
     margin: 0;
     font-family: 'lato' sans-serif.
    }
-
-
-
-
-
-
- /*------------------------------------------------------color*/   
-
-
-
-
-
-
-
 
 
 
@@ -46,15 +32,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
  /*------------------------------------------------------header*/
 header{
     background-image:url("../images/ele.jpg");
@@ -76,66 +53,40 @@ header{
 
 
 
- /*------------------------------------------------------body*/
+ /*------------------------------------------------------gallery*/
+element.style {
+    max-width: 200px;
+    max-height:100px;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    padding: 20px;
+    border-radius: 50%
+    width:200px;
+    display:inline-block;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*------------------------------------------------------body*/
-
-
-
-
-
-
-
-
-
-
-
-
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 
 
  /*------------------------------------------------------body*/
 
 .name{
-    font-family: 'Mandali',sans-serif;
+    font-family: 'Lato',sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
-    color: rgb(245, 233, 228);
+    color: rgb(221, 209, 209);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
  /*------------------------------------------------------ul/li*/
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -219,7 +170,7 @@ li a:hover {
 }
 /*------------------------------------------------------footer*/
 footer {
-    background-color: #7c7473;
+    background-color: #f7f4f3;
     color: #ecbbbb;
     min-height: 120px;
     margin: 0;
