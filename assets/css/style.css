@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato|100,200,300,400,500,600,700'); 
 
 /*------------------------------------------------------body*/
-   body{ font-family: 'lato' sans-serif.
-     padding: 0;
-    margin: 0;
-    font-family: 'lato' sans-serif.
-   }
+   body{ font-family: 'lato',sans-serif.
+    margin: 0;}
 
 
 
  /*------------------------------------------------------nav*/
 
 .name{
-    font-family: 'Mandali',sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
@@ -35,35 +31,27 @@
  /*------------------------------------------------------header*/
 header{
     background-image:url("../images/ele.jpg");
-    height: 100vh;
     background: cover;
-    background-size:cover;
-    transition: all 0.5s ease-in-out; 
-    -o-transition: all 0.5s ease-in-out; 
-    -moz-transition: all 0.5s ease-in-out; 
-    -webkit-transition: all 0.5s ease-in-out; 
+    height: 100vh
+    background-size:100%;
+    transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
 } 
-
-
-
-
-
-
-
-
 
 
  /*------------------------------------------------------gallery*/
 element.style {
-    max-width: 200px;
-    max-height:100px;
+    max-width: 600px;
+    max-height:500px;
     height: auto;
 }
 img {
     vertical-align: middle;
     padding: 20px;
-    border-radius: 50%
-    width:200px;
+    border-radius:  25px;
+    width:600px;
     display:inline-block;
 
 }
@@ -130,11 +118,11 @@ li a:hover {
     top: 50%;
     bottom: 50%
     padding: 10px 15px 15px;
-    transfoam: translate(50px,100px);
-    transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+     translate:(50px,100px);
+    transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
 
 }
 
@@ -145,11 +133,11 @@ li a:hover {
     padding: 10px 15px 15px;
     vertical-align: middle;
     line-height:50px;
-     justify-content: center;
-     transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+     justify-content:center center;
+     transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
 
 }
 
@@ -169,7 +157,7 @@ li a:hover {
     height: 120px;
 }
 /*------------------------------------------------------footer*/
-footer {
+footer{
     background-color: #f7f4f3;
     color: #ecbbbb;
     min-height: 120px;
@@ -218,15 +206,6 @@ footer {
 }
 /*-------------------------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgb(114, 8, 8)
-    height: 120px;
-}
-
-/
-/*-------------------------------------------------------------Work history*/
-
-
 /*---------------------------------------------------------media queries*/
 @media(min-width: 320px) {
     .center-form {
@@ -236,5 +215,3 @@ footer {
     max-width: 50;
 }
 
-/*--------------------------------------------------------------------------------w3 slide*/
-.
