@@ -56,6 +56,11 @@ Landing page
 
 ![trysafari-capture](https://user-images.githubusercontent.com/69846208/96375318-41a0d200-1170-11eb-9a7f-ba446a5393ed.PNG)
 
+changed the backround by removing the background image. This is the new look on the landing page.
+
+![image](https://user-images.githubusercontent.com/69846208/96652086-1cf25900-132e-11eb-8747-ca58757f6998.png)
+
+
 
 
 
